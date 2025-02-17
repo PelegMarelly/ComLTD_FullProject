@@ -1,0 +1,152 @@
+/* Overall styling for the registration page */
+.registration-page {
+  height: 100%;
+  min-height: 100vh; /* Full height adjustment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(375deg , #326b79,#252152, #7d3a07, #efa00f); /* Background gradient */
+}
+
+/* Styling for the container */
+.registration-page .container {
+  max-width: 800px; /* Maximum width for the container */
+  width: 100%; /* Use full width */
+  background-color: #fff; /* Background color */
+  padding: 40px; /* Internal padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Styling for the container title */
+.registration-page .container .title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center; /* Center-align the title */
+}
+
+/* Styling for the form */
+.registration-page form {
+  max-width: 100%; /* Form will take up the full width */
+  width: 100%;
+  margin: 0; /* Remove external spacing */
+}
+
+/* Styling for user details section */
+.registration-page .user-details {
+  display: flex;
+  flex-wrap: wrap; /* Allows fields to break to a new row */
+  gap: 20px; /* Space between fields */
+}
+
+/* Styling for form fields */
+.registration-page .user-details .input-box {
+  width: calc(50% - 10px); /* Each field takes half a row */
+  margin-bottom: 15px;
+}
+
+.registration-page .user-details .input-box input {
+  height: 50px;
+  width: 100%;
+  padding: 0 15px; /* Internal padding */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Styling for field labels */
+.registration-page .user-details .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Styling for gender selection */
+.registration-page .gender-details {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.registration-page .gender-details .gender-title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.registration-page .gender-details .category {
+  display: flex;
+  gap: 15px;
+}
+
+.registration-page .gender-details .category label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.registration-page .gender-details .category input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+
+/* Styling for buttons */
+.registration-page .subButton input {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+  background: linear-gradient(250deg, #14878b, #0667b5);
+  border: none;
+}
+
+.registration-page .logButton input {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #c7aa18, #581618);
+  border: none;
+}
+
+.registration-page .subButton input:hover,
+.registration-page .logButton input:hover {
+  background: linear-gradient(-135deg, #f4addd, #5f0341);
+}
+
+/* Styling for the checkbox */
+.validBox {
+  display: flex;
+  justify-content: flex-start; /* Checkbox on the left */
+  align-items: center; /* Vertical text alignment */
+  margin-top: 15px;
+}
+
+.validBox .checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between checkbox and text */
+}
+
+.validBox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0; /* Remove extra spacing */
+}
+
+/* Media queries for small screens */
+@media (max-width: 768px) {
+  .registration-page .user-details .input-box {
+    width: 100%; /* Fields take full width on small screens */
+  }
+}

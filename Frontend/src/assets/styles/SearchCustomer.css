@@ -1,0 +1,95 @@
+#search-customer-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(31, 18, 187);
+    background: linear-gradient(
+      115deg,
+      rgba(31, 18, 187, 1) 6%,
+      rgba(121, 38, 48, 1) 47%,
+      rgba(231, 132, 21, 1) 97%
+    );
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #search-customer-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  #search-customer-main {
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    color: #fff;
+    width: 1200px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+  
+  #search-customer-title {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #search-customer-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  #search-customer-form-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  #search-customer-form-button {
+    background-color: #131313;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #search-customer-form-button:hover {
+    background-color: #114f32;
+  }
+  
+  #results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  #results-table th,
+  #results-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #results-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #results-table td {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  #results-table-no-results {
+    text-align: center;
+    color: #666;
+  }
+  

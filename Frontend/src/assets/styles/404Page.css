@@ -1,0 +1,53 @@
+/* Container Style */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background: linear-gradient(135deg, #1a1a1a, #333); /* Dark gradient background */
+    color: white;
+    text-align: center;
+}
+
+/* Title Style */
+.not-found-title {
+    font-size: 10rem; /* Large font size for 404 */
+    font-weight: bold;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Text Style */
+.not-found-text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-top: 20px;
+    color: #cccccc;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Adding subtle animation */
+.not-found-text span {
+    display: block;
+    animation: typing 4s steps(40, end) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    width: 30ch; /* Control width of typing effect */
+}
+
+/* Typing Animation */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 30ch;
+    }
+    100% {
+        width: 0;
+    }
+}

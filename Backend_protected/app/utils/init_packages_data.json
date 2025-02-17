@@ -1,0 +1,22 @@
+[
+    {
+        "package_name": "Basic Connect",
+        "description": "Ideal for light users: 10GB data, up to 10Mbps speed. Roaming not included. Email support only. No additional perks.",
+        "monthly_price": 5
+    },
+    {
+        "package_name": "Standard Streamer",
+        "description": "Perfect for streamers: 50GB data, up to 50Mbps speed. Domestic roaming only. 24/7 live chat support. Includes 1-month free Netflix subscription.",
+        "monthly_price": 7
+    },
+    {
+        "package_name": "Unlimited Power",
+        "description": "Unlimited data (FUP: 200GB), up to 100Mbps speed. International roaming (5GB). Priority phone support. Includes free VPN for 6 months.",
+        "monthly_price": 12
+    },
+    {
+        "package_name": "Global Traveler",
+        "description": "For frequent travelers: 500GB data, high-speed 5G. Global roaming (50GB). Dedicated account manager. Includes 10GB extra in roaming zones and free access to airport lounges.",
+        "monthly_price": 22
+    }
+]

@@ -1,0 +1,53 @@
+
+main {
+    margin-left: 250px; /* Matches Sidebar width */
+    margin-top: 56px; /* Matches Navbar height */
+    padding: 20px;
+    min-height: calc(100vh - 56px); /* Minimum height adjusted */
+    display: flex;
+    flex-direction: column;
+    background-color:var(red); /* Updated background color */
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: var(--text-primary); /* Updated heading color */
+    margin-bottom: 20px;
+}
+
+form {
+    width: 50%;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--border-primary); /* Updated border color */
+    border-radius: 5px;
+}
+
+form button {
+    width: 30%;
+    padding: 10px;
+    background-color: var(--highlight-primary); /* Updated button background color */
+    color: var(--text-secondary); /* Updated button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rectangle-container {
+    display: flex; /* Arrange rectangles in a row */
+    gap: 20px; /* Space between rectangles */
+    justify-content: space-between; /* Even spacing */
+    align-items: center; /* Align rectangles vertically */
+    margin: 20px;
+}
+
+.rectangle-container img {
+    height: 80px; /* Fixed height */
+    object-fit: cover; /* Ensure image fits within rectangle dimensions */
+}

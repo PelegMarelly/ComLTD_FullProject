@@ -1,0 +1,154 @@
+/* Add Customer Page Container */
+#add-customer-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(215,135,186);
+  background: linear-gradient(250deg, rgba(215,135,186,1) 6%, rgba(33,174,179,1) 57%, rgb(53, 59, 4) 92%);
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center;
+}
+
+/* Content Container (Sidebar and Main Content) */
+#add-customer-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Main Content Area */
+#add-customer-main {
+  flex-grow: 1;
+  margin-top: 150px;
+  background-color: #ecececcb;
+  border-radius: 10px;
+  overflow-y: auto;
+  flex-direction: column;
+  height: 750px;
+  max-width: 600px;
+  width: 50%;
+}
+
+/* Title Styling */
+#add_cust_title {
+  margin-bottom: 20px;
+  color: #334c90;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+/* Form Styling */
+#add-customer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto; /* Center form */
+}
+
+/* Input and Select Fields */
+#add-customer-form input,
+#add-customer-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #292929;
+  color: #dfdfdf;
+  transition: border-color 0.3s ease;
+}
+
+#add-customer-form input:focus,
+#add-customer-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit Button */
+#add-customer-form button {
+  background-color: #202020;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#add-customer-form button:hover {
+  background-color: #b3004e;
+}
+
+/* Feedback Container */
+#feedback-container {
+  margin-bottom: 20px;
+}
+
+/* Error Feedback */
+.alert-danger.feedback {
+  background-color: #a80808; /* Dark red */
+  color: #ffffff; /* White text */
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Success Feedback */
+.alert-success.feedback {
+  background-color: #0f6f12; /* Dark green */
+  color: #ffffff; /* White text */
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Alert Styling */
+.alert {
+  padding: 10px;
+  background-color: #f8d7da;
+  color: #842029;
+  border: 1px solid #f5c2c7;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #add-customer-main {
+      padding: 15px;
+  }
+
+  #add-customer-form {
+      max-width: 100%;
+  }
+
+  h1 {
+      font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #add-customer-main {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  #add-customer-form input,
+  #add-customer-form select {
+      font-size: 0.9rem;
+  }
+
+  #add-customer-form button {
+      font-size: 0.9rem;
+      padding: 8px;
+  }
+}

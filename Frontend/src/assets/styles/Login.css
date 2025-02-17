@@ -1,0 +1,151 @@
+/* Styling for the login page container */
+.login-page {
+    height: 100%;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: url('../images/Login_bg.jpg') no-repeat center center/cover; /* Background image */
+}
+
+/* Styling for the container box */
+.login-page .container {
+    max-width: 600px; /* Maximum container width */
+    width: 100%;
+    background-color: #1b1b1b; /* Background color for the container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    color: #ccc;
+    border: 2px solid #fff ;
+    border-radius: 20px;
+}
+
+/* Styling for the title */
+.login-page .container .title {
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: orange;
+    text-align: center; /* Center align the title */
+}
+
+/* Styling for the form */
+.login-page form {
+    max-width: 100%; /* Full width form */
+    width: 100%;
+    margin: 0;
+}
+
+/* Styling for user details section */
+.login-page .user-details {
+    display: flex;
+    flex-direction: column; /* Stack fields vertically */
+    gap: 20px; /* Spacing between fields */
+    
+}
+
+/* Styling for input fields */
+.login-page .user-details .input-box {
+    width: 100%;
+}
+
+.login-page .user-details .input-box input {
+    height: 50px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #393939;
+    color: rgb(255, 171, 68);
+}
+
+/* Styling for the input field labels */
+.login-page .user-details .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* Styling for the Remember Me checkbox */
+.validBox {
+    display: flex;
+    justify-content: flex-start; /* Align checkbox to the left */
+    align-items: center; /* Align text vertically */
+    margin-top: 15px;
+}
+
+.validBox .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between checkbox and text */
+}
+
+.validBox input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0; /* Remove additional margin */
+}
+
+/* Styling for buttons */
+/* Styling for the login button */
+#submit-button input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e1a03;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #d65d07, #e3db08);
+    border: none;
+}
+
+#submit-button input:hover {
+    background: rgb(32, 33, 33);
+    color: darkorange;
+    border: 1px solid whitesmoke;
+}
+
+/* Styling for the forgot password button */
+#forgot-password-button input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #10055a, #085074); /* Red gradient */
+    border: none;
+}
+
+#forgot-password-button input:hover {
+    background: rgb(237, 237, 237);
+    color: darkblue;
+    border: 1px solid blue;
+}
+
+/* Styling for the register button */
+#register-button input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #b12400, #b61071); /* Green gradient */
+    border: none;
+}
+
+#register-button input:hover {
+    background: whitesmoke;
+    color: darkred;
+    border: 1px solid whitesmoke;
+}

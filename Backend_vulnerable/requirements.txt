@@ -1,0 +1,8 @@
+fastapi                    # Framework for building APIs (A modern, fast web framework for building APIs with Python 3.7+ based on standard Python type hints)
+uvicorn                    # ASGI server for running FastAPI (ASGI server to serve FastAPI applications)
+mysql-connector-python     # Connector for MySQL database (MySQL driver to allow Python to communicate with MySQL databases)
+loguru                     # Logging library (A library that simplifies logging in Python with less boilerplate)
+python-dotenv              # Manage environment variables (Read key-value pairs from `.env` file and set them as environment variables)
+pydantic                   # Data validation and settings management (Used by FastAPI for data validation and serialization)
+python-decouple            # A simple configuration library (For separating settings from code by reading from environment variables)
+python-multipart           # Multipart form parsing (Used to handle file uploads in FastAPI applications)

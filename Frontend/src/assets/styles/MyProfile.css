@@ -1,0 +1,95 @@
+#my-profile-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(52,111,164);
+    background: linear-gradient(135deg, rgba(52,111,164,1) 0%, rgba(23,36,68,1) 100%);
+}
+
+#my-profile-content {
+    display: flex;
+    flex: 1;
+}
+
+#my-profile-main {
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 250px;
+    margin-left: 650px;
+    background-color: #1c1c1c; /* Dark background for main content */
+    color: #fff; /* White text for better contrast */
+    height: 475px;
+    max-width: 600px ;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    text-align: center;
+}
+
+#my-profile-title {
+    text-align: center;
+    color: #00b4d8; /* Highlighted title color */
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#user-details-table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    width: 100%; /* Adjust table width */
+    background-color: #282828; /* Dark background for table */
+    color: #fff; /* White text */
+    border: 2px solid #444; /* Clear borders */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+}
+
+#user-details-table th,
+#user-details-table td {
+    padding: 15px;
+    border: 1px solid #555; /* Darker borders */
+    text-align: center;
+
+}
+
+#user-details-table th {
+    background-color: #333; /* Darker header background */
+    color: #00b4d8; /* Highlighted header text */
+    text-transform: uppercase;
+}
+
+#user-details-table td {
+    background-color: #1c1c1c; /* Dark row background */
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #my-profile-main {
+        padding: 15px;
+    }
+
+    #user-details-table {
+        width: 90%; /* Adjust table width for smaller screens */
+    }
+
+    #my-profile-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #my-profile-main {
+        padding: 10px;
+    }
+
+    #my-profile-title {
+        font-size: 1.5rem;
+    }
+
+    #user-details-table th,
+    #user-details-table td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}

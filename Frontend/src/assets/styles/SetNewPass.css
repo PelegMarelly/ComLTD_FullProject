@@ -1,0 +1,103 @@
+/* Overall styling for the Reset Password page */
+#reset-password-page {
+    height: 100%;
+    min-height: 100vh; /* Full height adjustment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #031322, #4f053a); /* Gradient background */
+}
+
+/* Styling for the container */
+#reset-password-container {
+    max-width: 500px; /* Maximum width for the container */
+    width: 100%; /* Full width */
+    background-color: #fff; /* Background color */
+    padding: 40px; /* Internal padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Styling for the title */
+#reset-password-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center; /* Center-align the title */
+}
+
+/* Styling for the form */
+#reset-password-form {
+    width: 100%;
+    margin: 0;
+}
+
+/* Styling for the input fields */
+#reset-password-user-details {
+    display: flex;
+    flex-direction: column; /* Fields in a column */
+    gap: 20px;
+}
+
+#reset-password-input-box {
+    width: 100%;
+}
+
+#reset-password-input-box input {
+    height: 50px;
+    width: 100%;
+    padding: 0 15px; /* Internal padding */
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for field labels */
+#reset-password-input-label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* Styling for buttons */
+#reset-password-submit-button input,
+#reset-password-back-login-button input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#reset-password-submit-button input {
+    background: linear-gradient(135deg, #012f14, #146536); /* Green gradient */
+    border: none;
+}
+
+#reset-password-back-login-button input {
+    background: linear-gradient(135deg, #2d7ea1, #1d1248); /* Red gradient */
+    border: none;
+}
+
+#reset-password-submit-button input:hover {
+    background: linear-gradient(-135deg, #1abc9c, #16a085);
+}
+
+#reset-password-back-login-button input:hover {
+    background: linear-gradient(-135deg, #d35400, #e67e22);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    #reset-password-container {
+        padding: 20px; /* Adjust padding */
+    }
+
+    #reset-password-title {
+        font-size: 24px; /* Adjust title size */
+    }
+}

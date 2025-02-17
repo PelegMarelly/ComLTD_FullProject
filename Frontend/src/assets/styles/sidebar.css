@@ -1,0 +1,86 @@
+/* Sidebar Container */
+#sidebar {
+    position: fixed;
+    top: 76px; /* Matches the Navbar height */
+    left: 0;
+    width: 300px; /* Default Sidebar width */
+    height: calc(100vh - 75px); /* Full height minus Navbar */
+    background-color: var(--custom-background-sidebar); /* Consistent background color */
+    z-index: 1020; /* Place under the Navbar */
+    box-shadow: var(--custom-shadow-light); /* Add subtle shadow for depth */
+    transition: width 0.3s ease; /* Smooth transition for width */
+    border: 1px solid rgba(255, 255, 255, 0.208);
+}
+
+/* Sidebar Navigation Links */
+#sidebar .nav-link {
+    color: var(--custom-text-secondary); /* Link color */
+    padding: 5px 10px; /* Adjusted spacing for better usability */
+    margin: 3px 0; /* Add vertical spacing between links */
+    border-radius: 5px; /* Rounded corners for modern design */
+    font-size: 16px; /* Default font size */
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Ensure links are block elements */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+}
+
+/* Hover and Active Effects for Links */
+#sidebar .nav-link:hover,
+#sidebar .nav-link.active {
+    background-color: var(--custom-hover-link); /* Highlight background */
+    color: var(--custom-text-primary); /* Text color on hover */
+    font-weight: 500;
+}
+
+/* Sidebar Logo (Optional Styling) */
+#sidebar-logo {
+    width: 100%;
+    max-height: 150px;
+    margin-bottom: 20px;
+    object-fit: contain; /* Maintain aspect ratio */
+    display: block;
+}
+
+.active-link {
+    background-color: var(--custom-current-link); /* Highlighted background color */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+/* Active Link Styling */
+.nav-link.active-link {
+    background-color: #007bff; /* Highlight active link */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* Keep submenu open for active items */
+  .submenu .active-link {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 200px; /* Narrower Sidebar on smaller screens */
+    }
+
+    #sidebar .nav-link {
+        font-size: 14px; /* Smaller font for better fit */
+    }
+}
+
+@media (max-width: 576px) {
+    #sidebar {
+        width: 180px; /* Even smaller Sidebar for very narrow screens */
+    }
+
+    #sidebar .nav-link {
+        font-size: 12px; /* Further reduce font size */
+        padding: 8px 12px; /* Adjust padding for compact view */
+    }
+}

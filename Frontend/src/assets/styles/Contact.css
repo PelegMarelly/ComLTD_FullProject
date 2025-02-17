@@ -1,0 +1,104 @@
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(147deg, #032e35, #0f6332); /* Modern gradient background */
+  padding: 20px;
+}
+
+#contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff; /* Modern text color */
+  margin-bottom: 10px;
+}
+
+#contact-description {
+  font-size: 1.2rem;
+  color: #1f1f1f;
+  margin-bottom: 30px;
+}
+
+#contact-form {
+  background: rgb(24, 24, 24); /* Remove border and box-shadow */
+  padding: 20px;
+  width: 100%;
+  max-width: 400px; /* Modern width for forms */
+  max-height: 350px;
+  height: 90vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  padding-right: 5px;
+  transition: border-color 0.3s;
+  
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  border-color: #007bff; /* Highlight on focus */
+  outline: none; /* Remove default outline */
+}
+
+#contact-form textarea {
+  resize: none; /* Prevent resizing */
+  height: 100px; /* Set default height */
+}
+
+#contact-form .form-check-label {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+#contact-form button {
+  background: #103ab7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#contact-form button:hover {
+  background: #9cd81c; /* Darker blue on hover */
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+
+#typing-effect-container-contact {
+  width: 550px; /* Set a fixed width for the typing effect container */
+  height: 200px; /* Set a fixed height for the typing effect container */
+  text-align: center; /* Align text to the left */
+  margin-right: 50px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--custom-text-light);
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  overflow: hidden; /* Prevent content overflow */
+  border: 1px solid transparent; /* Optional: Add a border to visualize the container */
+}
+
+#typing-effect-container{
+  margin: 0; /* Remove default margins from paragraphs */
+}

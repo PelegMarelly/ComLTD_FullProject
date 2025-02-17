@@ -1,0 +1,89 @@
+:root {
+
+    /* Gradient backgrounds for pages 
+    ____________________________________________________________________________________________________
+    (home)
+    background: rgb(176,120,3);
+    background: linear-gradient(342deg, rgba(176,120,3,1) 0%, rgba(22,68,64,1) 49%, rgba(0,0,93,1) 100%);
+    ____________________________________________________________________________________________________
+    ____________________________________________________________________________________________________
+    (about)
+    background: rgb(238,181,62);
+    background: linear-gradient(135deg, rgba(238,181,62,1) 0%, rgba(108,4,77,1) 49%, rgba(25,0,14,1) 100%);
+    ____________________________________________________________________________________________________
+    ____________________________________________________________________________________________________
+    (data plans)
+    background: rgb(82,11,56);
+    background: linear-gradient(135deg, rgba(82,11,56,1) 18%, rgba(0,80,59,1) 46%, rgba(24,30,79,1) 76%, rgba(22,1,55,1) 94%);
+    ____________________________________________________________________________________________________
+    ____________________________________________________________________________________________________
+    (contact)
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    ____________________________________________________________________________________________________
+
+
+    /* Background Colors for elements */
+    --custom-background-navbar: #181818;
+    --custom-background-sidebar: #ffffff17;
+    --custom-current-link: #000000bc;
+    --custom-hover-link: #181951a6;
+    --custom-logout-btn:#4e4e4e ;
+    --custom-logout-btn-hover: #e04c3bc7 ;
+    --custom-input-light : #ffffff;
+    --custom-background-partners: #f5ecf142; 
+
+    /* text Colors */
+    --custom-text-light : #ffffff;
+    --custom-text-dark : #1f1f1f;
+    --custom-title-light: #ffe1d0;
+    --custom-title-dark: #0b253e;
+
+    /* Background Colors */
+    --custom-background-home: #E6D1B4; /* Light background for sections */
+    --custom-background-about: #220b19; /* Highlighted background */
+    --custom-background-dataplans: #073137; /* Dark background */
+    --custom-background-contact: #073137; /* Dark background */
+
+
+    /* Background Colors */
+    --custom-background-primary: #533946; /* Main background */
+    --custom-background-secondary: #E6D1B4; /* Light background for sections */
+    --custom-background-accent: #21616A; /* Highlighted background */
+    --custom-background-dark: #073137; /* Dark background */
+
+    /* Text Colors */
+    --custom-text-primary: #0F2C33; /* Main text color */
+    --custom-text-secondary: #E6D1B4; /* Light text color */
+    --custom-text-placeholder: silver; /* Placeholder color */
+    --custom-text-error: #e74c3c; /* Error text color */
+    --custom-text-success: #2ecc71; /* Success message color */
+    --custom-text-warning: #f39c12; /* Warning text color */
+
+    /* Border and Highlight Colors */
+    --custom-border-primary: #2E9CA0; /* Borders */
+    --custom-highlight-primary: #0f3f45; /* Links and hover effects */
+    --custom-highlight-secondary: #3498db; /* Buttons hover or active states */
+    --custom-border-error: #e74c3c; /* Error borders */
+    --custom-border-success: #27ae60; /* Success borders */
+
+    /* Button Colors */
+    --custom-button-primary-bg: #2E9CA0; /* Primary button background */
+    --custom-button-primary-text: white; /* Primary button text */
+    --custom-button-secondary-bg: #E6D1B4; /* Secondary button background */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+

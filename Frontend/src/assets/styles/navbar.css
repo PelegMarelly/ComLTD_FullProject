@@ -1,0 +1,52 @@
+/* Navbar container */
+#navbar {
+    background-color: var(--custom-background-navbar);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--custom-shadow-light); /* Box shadow for depth */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+
+/* User info container */
+#user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--custom-text-light);
+}
+
+/* User icon styling */
+#user-icon {
+    font-size: 24px;
+    color: var(--custom-icon-light);
+}
+
+/* Username text styling */
+#username-display {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--custom-text-light);
+}
+
+/* Logout button styling */
+#logout-button {
+    background-color: var(--custom-logout-btn);
+    color: var(--custom-button-primary-text);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#logout-button:hover {
+    background-color: var(--custom-logout-btn-hover); /* Change background on hover */
+    color: #fff; /* Ensure white text on hover */
+}
